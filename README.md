@@ -10,7 +10,7 @@ XTRUDR
 
 ## Introduction
 
-The **XTRUDR** board offers four extra analog inputs, four extra PWM outputs and three additional stepper motor drivers. The form factor and BeBoPr++ interface is identical to the **PEPPER** and **TAKE-5** expansion boards. The **XTRUDR** can either connect directly to a BeBoPr, or via a DECAMUX in combination with another expansion board for even more I/O.
+The **XTRUDR** board offers four extra analog inputs, four extra PWM outputs and three additional stepper motor drivers. The form factor and BeBoPr++ interface is identical to the [**PEPPER**](https://github.com/modmaker/BeBoPr-plus-plus/wiki/PEPPER-Intro) and [**TAKE-5**](https://github.com/modmaker/TAKE-5) expansion boards. The **XTRUDR** can either connect directly to a BeBoPr, or via a [**DECAMUX**](https://github.com/modmaker/DECAMUX) in combination with another expansion board for even more I/O.
 
 This board gives the needed extra I/O to use a four channel extruder like the [**Kraken**](http://e3d-online.com/The-Kraken) in combination with a [**BeBoPr++**](https://github.com/modmaker/BeBoPr-plus-plus). Populating only part of the board gives a way to add only the I/O needed and minimize the costs. 
 
@@ -33,7 +33,7 @@ For this assembly an angled pin header was mounted onto the module and a 10-pin 
 |![](http://imagizer.imageshack.us/v2/280x200q90/661/js7rV0.jpg)|![](http://imagizer.imageshack.us/v2/480x400q90/537/bNfJ9r.jpg)|
 |----|:------|
 
-The leftmost picture shows the ADS1015 module with the (angled) pin header. The SMD components hide behind the connector pins. The board on the picture is actually the (ADS1115) 16-bit version that is pin compatible with the 12-bit (ADS1015) module. It's more expensive though and a bit slower in use.
+The leftmost picture shows the [**ADS1015 module**](http://www.adafruit.com/products/1083) with the (angled) pin header. The SMD components hide behind the connector pins. The board on the picture is actually the [(**ADS1115) 16-bit version**](http://www.adafruit.com/products/1085) that is pin compatible with the [**12-bit (ADS1015) module**](http://www.adafruit.com/products/1083). It's more expensive though and a bit slower in use.
 
 The other picture shows the ADS1015 module located behind some connectors (on the right side). In front of the module are the four analog inputs, the thermistor (4k7) pull-up resistors, and a (white) 4-pin connector that connects 1:1 to the BeBoPr++'s I2C bus (J22A). The (black) polarized header is for the 16-wire ribbon cable connection to the BeBoPr++ (or DECAMUX).
 
