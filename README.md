@@ -3,7 +3,7 @@ XTRUDR
 
 **BeBoPr++ multi I/O expansion board.**
 
-|![](http://imageshack.com/a/img673/1347/RP8xGJ.jpg)|
+|![](http://imagizer.imageshack.us/v2/640x480q90/673/RP8xGJ.jpg)|
 |:-:|
 |*XTRUDR carrier populated with 3 stepper drivers and ADC module*|
 
