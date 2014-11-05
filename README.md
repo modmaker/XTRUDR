@@ -22,7 +22,7 @@ The picture above shows the three stepper drivers on the left side and the four 
 |----|:------|
 The PCB design files are freely available to get PCBs manufactured. The XTRUDER can also be [**ordered directly from OSH Park**](https://oshpark.com/shared_projects/wKJb03ND) (in a set of 3). Or the [**Gerber files**]() can be used with most other PCB manufacturers.
 
-Besides the PCB, no special parts are used. The [**BOM**]() contains a list of used parts with numbers for ordering directly from Farnell or Mouser. 
+Besides the PCB, no special parts are used. The [**BOM**](https://github.com/modmaker/XTRUDR/blob/master/XTRUDR_BOM.ods) contains a list of used parts with numbers for ordering directly from Farnell or Mouser. 
 
 ## Easy to Assemble
 
