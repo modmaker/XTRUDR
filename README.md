@@ -54,6 +54,6 @@ Two [patches](http://imageshack.com/a/img661/4517/6Y3Fr1.jpg) are needed for the
 ## Connecting
 The [**connection diagram**](https://github.com/modmaker/XTRUDR/blob/master/XTRUDR-connections.pdf) shows how to connect the XTRUDR.
 
-The 4-pin header next to the ADC board should be wired 1:1 to the I2C connector on the BeBoPr++ (J22 IIRC). The 2x4 header pins close by are for the thermistors. Because there was not enough space on the board, only the low side switches are present on the 4-pin screw connector and the positive wire from the supply should wired to the loads directly (and fused externally!).
+The 4-pin header next to the ADC board should be wired 1:1 to the I2C connector on the BeBoPr++ (J22 IIRC). The 2x4 header pins close by are for the thermistors. Because there was not enough space on the board, only the low side switches are present on the 4-pin screw connector and the positive wire from the supply should be wired to the loads directly (and fused externally!).
 
-The stepper motors and heaters can use different power supplies (each at a suitable voltage, e.g. heaters at 12 Volt and steppers at 24 Volt).
+The stepper motors and heaters have separate connectors and can thus use different power supplies (each at a suitable voltage, e.g. heaters at 12 Volt and steppers at 24 Volt).
